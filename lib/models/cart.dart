@@ -14,13 +14,13 @@ class Cart extends ChangeNotifier {
       name: "Jorden Legacy",
       description: "This Forward-thinking design of his least signature  shoe",
       price: "600",
-      image: "assets/jordan-legacy.png",
+      image: "assets/jordanlegacy.png",
     ),
     Shoe(
       name: "Nike Durant",
       description: "This Forward-thinking design of his least signature  shoe",
       price: "500",
-      image: "nike-durant.jpg",
+      image: "nikedurant.jpg",
     ),
     Shoe(
       name: "Nike Air force 1",
