@@ -10,7 +10,7 @@ class ShoeTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.only(left: 25),
-      width: 200,
+      width: 250,
       decoration: BoxDecoration(
           color: Colors.grey[100], borderRadius: BorderRadius.circular(12)),
       child: Column(
@@ -56,19 +56,23 @@ class ShoeTile extends StatelessWidget {
                 GestureDetector(
                   onTap: onTap,
                   child: Container(
-                      padding: const EdgeInsets.all(20),
-                      decoration: const BoxDecoration(
-                        color: Colors.black,
-                        borderRadius: BorderRadius.only(
-                          topLeft: Radius.circular(
-                            14,
-                          ),
-                          bottomRight: Radius.circular(
-                            14,
-                          ),
+                    padding: const EdgeInsets.all(20),
+                    decoration: const BoxDecoration(
+                      color: Colors.black,
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(
+                          14,
+                        ),
+                        bottomRight: Radius.circular(
+                          14,
                         ),
                       ),
-                      child: const Icon(Icons.add_shopping_cart_rounded)),
+                    ),
+                    child: const Icon(
+                      Icons.add,
+                      color: Colors.white,
+                    ),
+                  ),
                 )
               ],
             ),
